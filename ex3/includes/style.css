@@ -1,0 +1,300 @@
+*{margin: 0;padding: 0;}
+header,nav,main,section,footer,aside,article,div
+{
+    display: block;
+}
+body {
+    font-family: Arial;
+}
+a {
+    text-decoration: none;
+   
+}
+
+header{
+    position: relative;
+width: 100%;
+height: 123px;
+background-color: #f5ebeb;
+padding-top: 1px;
+}
+ul{
+    width: 300px;
+    height: 33px;
+    margin: 52px auto;
+    list-style-type: none;
+}
+ul li{
+    float: left;
+    margin: 0px auto;
+    margin-left: 15px; 
+}
+
+ul li:hover{
+    color: red;
+}
+
+ul li a{
+    font-size: 24px;
+    color: #000000;
+    font-family: 'Amiko';
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+    margin-top: 26px;
+    text-transform: uppercase;
+    
+}
+.dot{
+    position: relative;
+    display: block;
+    width: 14px;
+height: 14px;
+border-radius: 50%;
+left: 513px;
+top: 50px;
+background: #F72828;
+}
+
+/*layout1*/
+#layout1 #wrapper {
+    
+    width: 881px;
+    height: 624px;
+    margin: 0px auto;
+    margin-top: 91px;  
+}
+  #layout1 .text {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 120px;
+}
+#layout1 .text h3{
+    position: absolute; 
+    top:263px;
+    font-size: 24px;
+line-height: 32px;
+  }
+#layout1 .text h1{
+    position: absolute; 
+    top:176px;
+    font-size: 72px;
+line-height: 96px; 
+  }
+  #layout1 .boxes {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    float: left;
+    width: 50%;
+    height: 624px;
+}
+#layout1 .box1 {
+    top: 44px;
+    left: 0px;
+    width: 75px;
+    height: 23px;
+}
+.boxes div {
+    position: absolute;
+    background-color: brown;
+}
+#layout1 .box2{
+    top:75px;
+    left:0px;
+    width:136px;
+    height: 46px;
+}
+
+#layout1 .box3{
+    top:132px;
+    left:0px;
+    width:134px;
+    height: 404px;
+}
+
+#layout1 .box4{
+    top:547px;
+    left:0px;
+    width:88px;
+    height: 28px;
+}
+
+#layout1 .box5{
+    top:582px;
+    left: 0px;
+    width:25px;
+    height: 26px; 
+}
+
+#layout1 .box6{
+    top:582px;
+    left: 32px;
+    width:25px;
+    height: 26px;
+}
+
+#layout1 .box7{
+    top:44px;
+    left: 149px;
+    width:246px;
+    height: 352px;
+}
+
+#layout1 .box8{
+    top:412px;
+    left: 149px;
+    width:123px;
+    height: 212px;
+}
+
+#layout1 .box9{
+    top:412px;
+    left: 286px;
+    width:55px;
+    height:105px;
+}
+
+#layout1 .box10{
+    top:524px;
+    left: 286px;
+    width:110px;
+    height:58px;
+}
+
+#layout1 .box11{
+    top:0px;
+    right:0px;
+    width:28px;
+    height:55px;
+}
+
+#layout1 .box12{
+    top:66px;
+    right: 0px;
+    width:28px;
+    height:55px;
+}
+
+#layout1 .box13{
+    top:132px;
+    right: 0px;
+    width:28px;
+    height:55px;
+}
+
+#layout1 .box14{
+    top:198px;
+    right: 0px;
+    width:28px;
+    height:198px;
+}
+
+#layout1 .box15{
+    top:412px;
+    right: 0px;
+    width:55px;
+    height:105px;
+}
+.clear{
+    clear: both;
+}
+footer {
+    position: relative;
+    width: 100%;
+    height: 41px;
+    background-color: #000000;
+    margin-top: 145px;
+    
+}
+
+
+/*layout2*/
+#layout2 .dot{
+    left: 600px;
+}
+#layout2 #wrapper{   
+    width: 1440px;
+    height: 1860px;
+    margin: 0px auto;
+}
+#layout2 aside{
+    float: right;
+    width: 169px;
+    height: 1800px;
+    background-color:black;
+}
+ .LRboxes #Rboxes1{
+    float: left;
+    margin-top: 119px;
+    width: 457px;
+    height: 2024px;
+    margin-left:151px;
+    margin-right: 55px;
+}
+.LRboxes #Lboxes2{
+    float: left;
+    margin-top:287px; 
+    width: 457px;
+    height: 1860px;
+    
+}
+
+ .LRboxes #Rboxes1 div {
+    width: 457px;
+    height: 299px;
+    background-color: #f05d23;
+    margin-bottom: 70px;
+}
+.LRboxes #Lboxes2 div {
+    width: 457px;
+    height: 299px;
+    background-color: #f05d23;
+    margin-bottom: 70px;
+}
+.Fblue{
+    float: left;
+    margin-top:119px;
+    height: 80px;
+    width: 80px;
+    background-color:#079ff7; 
+}
+.Sblue{
+    float:left;
+    margin-top:400px; 
+    height: 80px;
+    width: 80px;
+    background-color:#079ff7; 
+}
+.white{
+    margin-top:247px;
+    float: right;
+    height: 80px;
+    width: 80px;
+    background-color:#ffffff; 
+}
+.asidetext{
+    margin-top:1200px;
+}
+
+.asidetext a{
+    display: block;
+    font-size: 96px; 
+    text-align: center;
+    color:rgb(225, 65, 65);
+}
+
+
+.asidetext li{
+    text-align: center;
+    list-style-type: none;
+    margin-bottom: 15px;
+    
+}
+
+    
+
